@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.logo-app {
+    height: 35%;
+}
+
+.titulo-app {
+    font-size: 14px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.user-name {
+    font-size: 20px;
+}
