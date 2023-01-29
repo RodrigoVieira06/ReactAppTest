@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <div></div>
-    )
+        <div style={{marginLeft: '500px'}}>TEste
+        </div>
+    );
 }

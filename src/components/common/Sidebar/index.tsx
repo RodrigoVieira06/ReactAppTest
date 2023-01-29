@@ -10,7 +10,7 @@ const Sidebar = () => {
         <aside className={isOpen ? 'open' : 'closed'}>
             <nav className={`sidebar-container ${isOpen ? 'container-open' : 'container-closed'}`}>
                 <button className='btn btn-light toggle' onClick={toggle}>
-                    <FontAwesomeIcon icon={isOpen ? "times" : "bars"} />
+                    <FontAwesomeIcon icon={isOpen ? 'times' : 'bars'} />
                 </button>
                 <div className='sidebar-item'>
                     <FontAwesomeIcon icon="home" className='sidebar-item-icon' />
