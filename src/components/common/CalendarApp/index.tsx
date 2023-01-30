@@ -6,8 +6,6 @@ export default function CalendarApp() {
     const [value, onChange] = useState(new Date());
 
     return (
-        <div className='calendar-container'>
-            <Calendar onChange={onChange} value={value} />
-        </div>
+        <Calendar onChange={onChange} value={value} />
     );
 }

@@ -7,7 +7,9 @@ const Home = () => {
     return (
         <div className='home-container'>
             <Inicio />
-            <CalendarApp />
+            <div className='calendar-container'>
+                <CalendarApp />
+            </div>
         </div>
     );
 };

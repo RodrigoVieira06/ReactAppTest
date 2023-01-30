@@ -14,7 +14,7 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={isOpen ? 'times' : 'bars'} />
                 </button>
                 <Item isOpen={isOpen} title='Início' icon='home' rota='/' />
-                <Item isOpen={isOpen} title='Agendamento de consulta' icon='calendar' rota='/agendamentos'/>
+                <Item isOpen={isOpen} title='Agendamento de consulta' icon='calendar-alt' rota='/agendamentos'/>
                 <Item isOpen={isOpen} title='Consulta de agendamento' icon='search' rota='/buscarAgendamentos' />
             </nav>
         </aside>
