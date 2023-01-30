@@ -1,5 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Item from './Item';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -12,18 +13,9 @@ const Sidebar = () => {
                 <button className='btn btn-light toggle' onClick={toggle}>
                     <FontAwesomeIcon icon={isOpen ? 'times' : 'bars'} />
                 </button>
-                <div className='sidebar-item'>
-                    <FontAwesomeIcon icon="home" className='sidebar-item-icon' />
-                    <span className={isOpen ? 'item-open' : 'item-closed'}>Início</span>
-                </div>
-                <div className='sidebar-item'>
-                    <FontAwesomeIcon icon="calendar" className='sidebar-item-icon' />
-                    <span className={isOpen ? 'item-open' : 'item-closed'}>Agendamento de consulta</span>
-                </div>
-                <div className='sidebar-item'>
-                    <FontAwesomeIcon icon="search" className='sidebar-item-icon' />
-                    <span className={isOpen ? 'item-open' : 'item-closed'}>Consulta de agendamento</span>
-                </div>
+                <Item isOpen={isOpen} title='Início' icon='home' rota='/' />
+                <Item isOpen={isOpen} title='Agendamento de consulta' icon='calendar' rota='/agendamentos'/>
+                <Item isOpen={isOpen} title='Consulta de agendamento' icon='search' rota='/buscarAgendamentos' />
             </nav>
         </aside>
     );

@@ -1,0 +1,17 @@
+.agendamentosDia-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0B4C7C;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.texto {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}

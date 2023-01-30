@@ -4,8 +4,8 @@
     justify-content: center;
     margin-left: 2%;
     margin-top: 25px;
-    height: 60vh;
-    width: 40%;
+    height: 100%;
+    width: 20%;
     border-radius: 2%;
     background-color: rgb(255, 255, 255);
 }
@@ -27,12 +27,13 @@
 }
 
 .react-calendar__tile {
-    background-color: #D3D3D3;
+    background-color: #0B4C7C;
     margin-top: 10px;
     border-radius: 10%;
+    color: #fff;
 }
 
 .react-calendar__tile--active {
-    background-color: #007bff;
+    background-color: #E5862E;
     color: #fff;
 }
