@@ -1,8 +1,14 @@
 import React from 'react';
+import CalendarApp from '../../common/CalendarApp';
+import Dashboard from './Dashboard';
 
-export default function Home() {
+const Home = () => {
     return (
-        <div style={{marginLeft: '500px'}}>TEste
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <Dashboard />
+            <CalendarApp />
         </div>
     );
-}
+};
+
+export default Home;
