@@ -7,7 +7,7 @@ import { IConsulta } from '../../../../models/IConsulta';
 // função que monta a lista de horários, replicando horários na agenda de trinta em
 // trinta minutos ao longo do dia
 function horariosAgenda(): Array<JSX.Element> {
-    const linhas: Array<any> = [];
+    const linhas: Array<JSX.Element> = [];
 
     // horário de funcionamento de 7h às 19h
     for (let hora = 7; hora < 19; hora++) {

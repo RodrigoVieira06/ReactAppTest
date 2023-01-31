@@ -1,5 +1,6 @@
 import CalendarApp from '../../common/CalendarApp';
 import Inicio from './Inicio';
+import ResumoAgenda from './ResumoAgenda';
 
 const Home = () => {
     return (
@@ -11,6 +12,9 @@ const Home = () => {
                 <div className='col'>
                     <div className='row-sm-6 d-flex justify-content-center'>
                         <CalendarApp />
+                    </div>
+                    <div className='row-sm-6 d-flex justify-content-center'>
+                        <ResumoAgenda />
                     </div>
                 </div>
             </div>
