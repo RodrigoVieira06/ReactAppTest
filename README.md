@@ -1,6 +1,11 @@
-# Iniciando o projeto do Teste de Frontend Adivice Health
+# Teste de Frontend Adivice Health
 
 Este projeto consiste em um aplicativo de controle de agendamento de consultas médicas.
+
+**Desenvolvido por:**  
+`Rodrigo Vieira Lima`  
+`rodrigovlima06@gmail.com`  
+`Desenvolvedor frontend e mobile - Flutter | React | AngularJS`
 
 ## 1 - Download do projeto:
 
