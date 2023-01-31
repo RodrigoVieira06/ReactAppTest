@@ -1,16 +1,17 @@
-import React from 'react';
 import './Header.css';
 import AdviceHealthLogo from '../../../assets/AdviceHealthLogo.png';
+import profile from '../../../data/profile.json';
 
 const Header = () => {
     return (
-        <header className="header-container">
-            <div className='header-logo'>
+        <header className="header-container d-flex justify-content-between">
+            <div className='header-logo d-flex justify-content-center'>
                 <img className='logo-app' src={AdviceHealthLogo} alt="Logo" />
-                <span className='titulo-app'>Painel de consultas médicas</span>
+                <span style={{ fontSize: '14px' }}>Painel de consultas médicas</span>
             </div>
-            <div className='profile'>
-                <span className='user-name'>User Name</span>
+            <div className='row'>
+                <span style={{ fontSize: '20px' }}>{profile.nome}</span>
+                <span style={{ fontSize: '16px' }} >{profile.email}</span>
             </div>
         </header>
     );

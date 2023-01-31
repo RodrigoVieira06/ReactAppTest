@@ -1,11 +1,10 @@
-import React from 'react';
 import CalendarApp from '../../common/CalendarApp';
 import Medicos from './Médicos';
 import Consultas from './Consultas';
 
 export default function Agendamentos() {
     return (
-        <div className='row main-content'>
+        <div className='row body-content'>
             <div className='col-sm-8 left-content'>
                 <Consultas />
             </div>

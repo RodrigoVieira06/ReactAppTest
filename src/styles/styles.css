@@ -1,18 +1,23 @@
 .main-content {
+    background-color: #dbdbdb;
+    height: 100vh;
+}
+
+.body-content {
     margin-top: 25px;
-    margin-left: 7%;
+    margin-left: 2%;
 }
 
 .left-content {
-    width: 62%;
-    margin-right: 25px;
+    width: 115vh;
+    height: 80vh;
+    margin-right: 40px;
     border-radius: 2%;
     background-color: #fff;
 }
 
 .right-content {
-    display: flex;
-    justify-content: center;
+    height: 80vh;
     border-radius: 2%;
     background-color: #fff;
 }

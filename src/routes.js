@@ -9,19 +9,15 @@ import './styles/styles.css';
 const AppRouter = () => {
     return (
         <Router>
-            <div style={{ backgroundColor: 'lightgray' }}>
+            <div className='main-content'>
                 <Header />
-                <Sidebar />
-                <div className='row'>
-                    <div className='col-xs-12'>
-                        <div style={{ height: '90vh' }}>
-                            <Routes>
-                                <Route path='/' element={<Home />} />
-                                <Route path='/agendamentos' element={<Agendamentos />} />
-                                <Route path='/buscarAgendamentos' element={<BuscarAgendamentos />} />
-                            </Routes>
-                        </div>
-                    </div>
+                <div className='d-flex justify-content-between'>
+                    <Sidebar />
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/agendamentos' element={<Agendamentos />} />
+                        <Route path='/buscarAgendamentos' element={<BuscarAgendamentos />} />
+                    </Routes>
                 </div>
             </div>
         </Router>

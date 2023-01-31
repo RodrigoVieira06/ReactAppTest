@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Avisos = () => {
     return (
         <div className='avisos-container'>

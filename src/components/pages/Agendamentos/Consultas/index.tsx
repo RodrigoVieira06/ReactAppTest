@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
 import Consulta from './Consulta';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
+// função que monta a lista de horários, replicando horários na agenda de trinta em
+// trinta minutos ao longo do dia
 function horariosAgenda(): Array<JSX.Element> {
     const linhas: Array<any> = [];
 
@@ -9,7 +11,7 @@ function horariosAgenda(): Array<JSX.Element> {
         for (let minuto = 0; minuto < 60; minuto += 30) {
             const horario = `${String(hora).padStart(2, '0')}:${String(minuto).padStart(2, '0')}`;
             linhas.push(
-                <Consulta horario={horario} />
+                <Consulta key={horario} horario={horario} />
             );
         }
     }
@@ -37,7 +39,11 @@ const Consultas = () => {
                     </button>
                 </div>
             </div>
-            {consultaslista}
+            <div className='mt-2'>
+                <Scrollbars style={{ height: 500 }}>
+                    {consultaslista}
+                </Scrollbars>
+            </div>
         </>
     );
 };
