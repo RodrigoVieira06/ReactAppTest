@@ -1,6 +1,6 @@
-import './Header.css';
 import AdviceHealthLogo from '../../../assets/AdviceHealthLogo.png';
 import profile from '../../../data/profile.json';
+import './Header.css';
 
 const Header = () => {
     return (
@@ -10,8 +10,8 @@ const Header = () => {
                 <span style={{ fontSize: '14px' }}>Painel de consultas médicas</span>
             </div>
             <div className='row'>
-                <span style={{ fontSize: '20px' }}>{profile.nome}</span>
-                <span style={{ fontSize: '16px' }} >{profile.email}</span>
+                <span className='profile-name'>{profile.nome}</span>
+                <span className='profile-email' >{profile.email}</span>
             </div>
         </header>
     );

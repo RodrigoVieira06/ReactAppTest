@@ -12,3 +12,13 @@
 .logo-app {
     height: 35%;
 }
+
+.profile-name {
+    font-size: 20px;
+    color: #0B4C7C;
+}
+
+.profile-email {
+    font-size: 16px;
+    color: #0B4C7C;
+}

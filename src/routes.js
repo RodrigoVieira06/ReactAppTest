@@ -11,7 +11,7 @@ const AppRouter = () => {
         <Router>
             <div className='main-content'>
                 <Header />
-                <div className='d-flex justify-content-between'>
+                <div className='d-flex'>
                     <Sidebar />
                     <Routes>
                         <Route path='/' element={<Home />} />
