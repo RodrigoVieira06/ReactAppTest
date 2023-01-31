@@ -1,0 +1,82 @@
+[
+    {
+        "data": "31/01/2023",
+        "horario": "09:00",
+        "paciente": {
+            "nome": "Rodrigo Vieira Lima",
+            "cpf": "570.026.820-59",
+            "datanascimento": "06/06/1995",
+            "celular": "21990012455",
+            "email": "rodrigovlima06@gmail.com",
+            "cep": "21371420",
+            "logradouro": "rua Teste",
+            "numero": "123",
+            "complemento": "Casa",
+            "Bairro": "Irajá",
+            "Cidade": "Rio de Janeiro"
+        },
+        "medico": "Amando das Couves",
+        "valor": 250,
+        "situacao": "Confirmada"
+    },
+    {
+        "data": "31/01/2023",
+        "horario": "07:30",
+        "paciente": {
+            "nome": "João Carlos Silva",
+            "cpf": "477.857.190-80",
+            "datanascimento": "01/12/1980",
+            "celular": "21990012455",
+            "email": "joaocarlosteste@gmail.com",
+            "cep": "21371420",
+            "logradouro": "rua Teste",
+            "numero": "123",
+            "complemento": "Casa",
+            "Bairro": "Irajá",
+            "Cidade": "Rio de Janeiro"
+        },
+        "medico": "Rebeca Antonieta",
+        "valor": 700,
+        "situacao": "Pendente"
+    },
+    {
+        "data": "30/01/2023",
+        "horario": "14:00",
+        "paciente": {
+            "nome": "Maria Joana Freitas",
+            "cpf": "823.413.080-31",
+            "datanascimento": "16/08/1972",
+            "celular": "21990012455",
+            "email": "mariajoanateste@gmail.com",
+            "cep": "21371420",
+            "logradouro": "rua Teste",
+            "numero": "123",
+            "complemento": "Casa",
+            "Bairro": "Irajá",
+            "Cidade": "Rio de Janeiro"
+        },
+        "medico": "Amando das Couves",
+        "valor": 280,
+        "situacao": "Confirmada"
+    },
+    {
+        "data": "01/02/2023",
+        "horario": "10:00",
+        "paciente": {
+            "nome": "Gustavo Fernandes Viana",
+            "cpf": "331.922.050-08",
+            "datanascimento": "21/02/1991",
+            "celular": "21990012455",
+            "email": "gustavofernandes@gmail.com",
+            "cep": "21371420",
+            "logradouro": "rua Teste",
+            "numero": "123",
+            "complemento": "Casa",
+            "Bairro": "Irajá",
+            "Cidade": "Rio de Janeiro"
+        },
+        "medico": "Rebeca Antonieta",
+        "valor": 300,
+        "situacao": "Confirmada"
+    }
+]

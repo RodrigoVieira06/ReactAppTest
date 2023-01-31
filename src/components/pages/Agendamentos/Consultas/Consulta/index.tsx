@@ -4,25 +4,41 @@ import './Consulta.css';
 interface IConsultaProps {
     horario: string;
     nome?: string;
+    situcao?: string;
 }
 
-const Consulta = ({ horario, nome }: IConsultaProps) => {
+const Consulta = ({ horario, nome, situcao }: IConsultaProps) => {
     return (
         <div className='row consulta'>
             <div className='col-sm-3'>
                 <span className='horario'>{horario}</span>
             </div>
             <div className='col-sm-6'>
-                <span className='dados-consulta'>{nome}</span>
+                <div className='row'>
+                    <span className='dados-consulta'>{nome}</span>
+                    <span className='dados-consulta'>{situcao}</span>
+                </div>
             </div>
             <div className='col-sm-1'>
-                <FontAwesomeIcon icon={'calendar-alt'} color='white' size='lg' />
+                {
+                    nome
+                        ? <FontAwesomeIcon icon={'calendar-alt'} color='white' size='lg' />
+                        : <div></div>
+                }
             </div>
             <div className='col-sm-1'>
-                <FontAwesomeIcon icon={'edit'} color='white' size='lg' />
+                {
+                    nome
+                        ? <FontAwesomeIcon icon={'edit'} color='white' size='lg' />
+                        : <div></div>
+                }
             </div>
             <div className='col-sm-1'>
-                <FontAwesomeIcon icon={'trash'} color='white' size='lg' />
+                {
+                    nome
+                        ? <FontAwesomeIcon icon={'trash'} color='white' size='lg' />
+                        : <div></div>
+                }
             </div>
 
         </div>
