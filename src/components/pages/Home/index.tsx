@@ -9,9 +9,13 @@ const Home = () => {
                 <Inicio />
             </div>
             <div className='col-sm-4 right-content'>
-                <CalendarApp />
+                <div className='col'>
+                    <div className='row-sm-6 d-flex justify-content-center'>
+                        <CalendarApp />
+                    </div>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 
