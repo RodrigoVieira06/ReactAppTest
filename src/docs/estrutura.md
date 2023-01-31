@@ -1,4 +1,4 @@
-### Estrutura Frontend do Dashboard ANA Automações
+### Estrutura Frontend da aplicação
 ```html
 |-- [+] public
 |-- [-] src
