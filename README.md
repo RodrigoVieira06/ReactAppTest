@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Iniciando o projeto do Teste de Frontend Adivice Health
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto consiste em um aplicativo de controle de agendamento de consultas médicas.
 
-## Available Scripts
+## 1 - Download do projeto:
 
-In the project directory, you can run:
+### `git clone`
+
+Primeiro, é necessário clonar o repositório para sua máquina ou realizar o download através do botão "Code" do github. Para clonar basta executar o seguinte código:
+
+```
+git clone https://github.com/RodrigoVieira06/AdviceHealthFrontendTest.git
+```
+Depois é necessário acessar a pasta principal do projeto:
+```
+cd AdviceHealthFrontendTest
+```
+Como é um projeto em fase de vida inicial, existe apenas uma branch master, onde está a versão mais atualizada do código.
+
+## 2 - Iniciando o projeto:
+
+### `npm install`
+
+Com o projeto em mãos, é necessário instalar as dependências utilizando o node. Certifique que o [node](https://nodejs.org/en/) esteja devidamente instalado. Execute o código:
+```
+npm install
+```
+`Observação`: é possível que existam alguns erros (aproximadamente 6 erros) durante o download, mas isso não impedirá a execução do projeto.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Com o node modules instalado, agora basta utilizar o 'npm start' que o projeto será inicializado. O projeto encontra-se em construção, portanto, algumas telas ainda não estarão estáveis e com algumas falhas de estilização.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Execute:
+```
+npm start
+```
 
-### `npm test`
+## Índice
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. [Estrutura frontend](./src/docs/estrutura.md)
