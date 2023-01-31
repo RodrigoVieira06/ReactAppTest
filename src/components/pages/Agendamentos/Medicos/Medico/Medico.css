@@ -1,0 +1,14 @@
+.medico {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.selected {
+    background-color: #E5862E;
+}
+
+.not-selected {
+    background-color: #0B4C7C;
+
+}

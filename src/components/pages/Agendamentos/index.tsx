@@ -1,5 +1,5 @@
 import CalendarApp from '../../common/CalendarApp';
-import Medicos from './Médicos';
+import Medicos from './Medicos';
 import Consultas from './Consultas';
 
 export default function Agendamentos() {

@@ -10,7 +10,13 @@ function agenda(): Array<JSX.Element> {
     // buscando consultas agendadas e atribuindo no resumo da agenda
     consultas.forEach((consulta: IConsulta) => {
         linhas.push(
-            <ResumoConsulta key={consulta.horario} horario={consulta.horario} nome={consulta.paciente.nome} situcao={consulta.situacao} medico={consulta.medico} />
+            <ResumoConsulta
+                key={consulta.horario}
+                horario={consulta.horario}
+                nome={consulta.paciente.nome}
+                situcao={consulta.situacao}
+                medico={consulta.medico}
+            />
         );
     });
 

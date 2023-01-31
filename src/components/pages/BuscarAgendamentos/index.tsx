@@ -1,6 +1,6 @@
 import CalendarApp from '../../common/CalendarApp';
 import Consultas from '../Agendamentos/Consultas';
-import Medicos from '../Agendamentos/Médicos';
+import Medicos from '../Agendamentos/Medicos';
 
 export default function BuscarAgendamentos() {
     return (

@@ -1,10 +1,18 @@
 [
     {
         "nome": "Armando das Couves",
-        "funcao": "fisioterapeuta"
+        "funcao": "Ortopedista"
     },
     {
         "nome": "Rebeca Antonieta",
         "funcao": "Cardiologista"
+    },
+    {
+        "nome": "Josue Lima",
+        "funcao": "Endocrinologista"
+    },
+    {
+        "nome": "Jessica Santos",
+        "funcao": "Neurologista"
     }
 ]
