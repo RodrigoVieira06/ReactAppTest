@@ -6,9 +6,8 @@ interface IInformacaoProps {
 }
 
 const Informacao = ({ texto, valor = '0' }: IInformacaoProps) => {
-
     return (
-        <div className='agendamentosDia-container'>
+        <div className='d-flex justify-content-between agendamentosDia'>
             <span className='texto-dashboard'>{texto}</span>
             <span className='texto-dashboard'>{valor}</span>
         </div>

@@ -1,13 +1,16 @@
-// import Avisos from './Avisos';
+import Avisos from './Avisos';
 import Dashboard from './Dashboard';
 
 const Inicio = () => {
     return (
-        <div className='col'>
-            <div className='col-sm-12 mt-3'>
+        <>
+            <div className='mt-3'>
                 <Dashboard />
             </div>
-        </div>
+            <div className='mt-5'>
+                <Avisos />
+            </div>
+        </>
     );
 };
 

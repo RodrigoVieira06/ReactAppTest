@@ -1,14 +1,12 @@
-.agendamentosDia-container {
-    display: flex;
-    flex-direction: row;
+.agendamentosDia {
     align-items: center;
-    height: 100%;
+    height: 50px;
     margin-bottom: 10px;
-    justify-content: space-between;
     background-color: #0B4C7C;
 }
 
 .texto-dashboard {
+    font-weight: 600;
     margin-left: 10px;
     margin-right: 10px;
     color: #fff;

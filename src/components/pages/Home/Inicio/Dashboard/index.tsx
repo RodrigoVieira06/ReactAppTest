@@ -2,7 +2,7 @@ import Informacao from './Informacao';
 
 const Dashboard = () => {
     return (
-        <div className='col'>
+        <div className='row'>
             <span className='titulo'>
                 DASHBOARD
             </span>
