@@ -1,13 +1,13 @@
 import React from 'react';
 // import Avisos from './Avisos';
 import Dashboard from './Dashboard';
-import './Inicio.css';
 
 const Inicio = () => {
     return (
-        <div className='inicio-container'>
-            <Dashboard />
-            {/* <Avisos /> */}
+        <div className='col'>
+            <div className='col-sm-12 mt-3'>
+                <Dashboard />
+            </div>
         </div>
     );
 };

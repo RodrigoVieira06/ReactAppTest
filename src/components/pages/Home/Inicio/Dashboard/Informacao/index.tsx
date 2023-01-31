@@ -6,12 +6,12 @@ interface IInformacaoProps {
     valor?: string;
 }
 
-const Informacao = ({ texto, valor = '0.00' }: IInformacaoProps) => {
+const Informacao = ({ texto, valor = '0' }: IInformacaoProps) => {
 
     return (
         <div className='agendamentosDia-container'>
-            <span className='texto'>{texto}</span>
-            <span className='texto'>R${valor}</span>
+            <span className='texto-dashboard'>{texto}</span>
+            <span className='texto-dashboard'>{valor}</span>
         </div>
     );
 };
