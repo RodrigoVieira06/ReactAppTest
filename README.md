@@ -1,6 +1,6 @@
-# Teste de Frontend Adivice Health
+# Frontend React App
 
-Este projeto consiste em um aplicativo de controle de agendamento de consultas médicas.
+Este projeto consiste em um aplicativo em react sobre uma agenda de consultas médicas.
 
 **Desenvolvido por:**  
 `Rodrigo Vieira Lima`  
